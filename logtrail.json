@@ -13,7 +13,7 @@
         "timestamp" : "@timestamp",
         "display_timestamp" : "timestamp",
         "host" : "host",
-        "program": "program",
+        "program": "docker.name",
         "message": "message"
     }
   }
