@@ -1,5 +1,5 @@
-FROM kibana:5.5.0
+FROM kibana:5.5.1
 
-RUN kibana-plugin install https://github.com/sivasamyk/logtrail/releases/download/0.1.14/logtrail-5.5.0-0.1.17.zip
+RUN kibana-plugin install https://github.com/sivasamyk/logtrail/releases/download/v0.1.18/logtrail-5.5.0-0.1.18.zip
 
 ADD logtrail.json /opt/kibana/installedPlugins/logtrail/logtrail.json
